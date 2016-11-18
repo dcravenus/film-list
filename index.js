@@ -7,4 +7,6 @@ request(url, function (error, response, body) {
         return movie.mpaaRating !== 'R';
     });
     console.log(movies);
+    riot.mount('film-cardlist', {films: movies});
 });
+
