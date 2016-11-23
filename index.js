@@ -10,3 +10,4 @@ request(url, function (error, response, body) {
     riot.mount('film-cardlist', {films: movies});
 });
 
+riot.mount('attributions');
