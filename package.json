@@ -1,6 +1,7 @@
 {
   "main": "main.js",
   "dependencies": {
+    "localforage": "^1.4.3",
     "request": "^2.78.0"
   }
 }
