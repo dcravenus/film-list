@@ -1,6 +1,6 @@
 <film-card>
         <div>
-            <img src="{posters.primary}">
+            <a href="https://www.rottentomatoes.com/{url}"><img src="{posters.primary}"></a>
         </div>
         <div>
             <h2>{title} - {tomatoScore}%</h2>
